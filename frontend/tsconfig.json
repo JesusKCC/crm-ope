@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "useDefineForClassFields": true,
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "paths": {
+      "react": ["c:/Users/Usuario/hello-world/CRM/crm-frontend/node_modules/@types/react"],
+      "react-dom": ["c:/Users/Usuario/hello-world/CRM/crm-frontend/node_modules/@types/react-dom"],
+      "react-dom/client": ["c:/Users/Usuario/hello-world/CRM/crm-frontend/node_modules/@types/react-dom/client"],
+      "react/jsx-runtime": ["c:/Users/Usuario/hello-world/CRM/crm-frontend/node_modules/@types/react/jsx-runtime"],
+      "@supabase/supabase-js": ["c:/Users/Usuario/hello-world/CRM/crm-frontend/node_modules/@supabase/supabase-js"],
+      "lucide-react": ["c:/Users/Usuario/hello-world/CRM/crm-frontend/node_modules/lucide-react"],
+      "recharts": ["c:/Users/Usuario/hello-world/CRM/crm-frontend/node_modules/recharts"],
+      "*": ["./src/*", "c:/Users/Usuario/hello-world/CRM/crm-frontend/node_modules/*"]
+    },
+    "typeRoots": [
+      "./node_modules/@types",
+      "c:/Users/Usuario/hello-world/CRM/crm-frontend/node_modules/@types"
+    ]
+  },
+  "include": ["src", "src/vite-env.d.ts"]
+}
